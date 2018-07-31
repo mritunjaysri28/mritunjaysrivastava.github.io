@@ -1,0 +1,13 @@
+.header {
+  height: 100vh;
+  text-align: center;
+  background-color:  #282830;
+}
+
+.nav {
+  background-color:  black;
+}
+
+a {
+  color: white;
+}
