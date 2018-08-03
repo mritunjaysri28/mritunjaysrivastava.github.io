@@ -1,13 +1,38 @@
-.header {
+#particles-js {
   height: 100vh;
-  text-align: center;
   background-color:  #282830;
 }
-
-.nav {
-  background-color:  black;
+.header {
+  position: absolute;
+  margin-top: 40vh;
+  width: 100%;
+  text-align: center;
 }
-
-a {
-  color: white;
+hr {
+  border: 1px inset black;
+  width: 10vh;
+}
+.jumbotron {
+  background-color: white;
+}
+.size {
+  background-color: #ecf0f1;
+}
+.col-sm-2, .col-sm-4 {
+  margin: 10px 0px;
+}
+.card-body {
+  width: 90%;
+  margin: 20px;
+}
+.card {
+  border: 0px;
+}
+.card:hover {
+  background-color: #ecf0f1;
+}
+.icon {
+  margin-right: 20px;
+  font-size: 3em;
+  color: #ecf0f1;
 }
