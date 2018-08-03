@@ -27,6 +27,7 @@ hr {
 }
 .card {
   border: 0px;
+  margin: 5px 0px;
 }
 .card:hover {
   background-color: #ecf0f1;
