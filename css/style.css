@@ -31,6 +31,7 @@ hr {
 }
 .card:hover {
   background-color: #ecf0f1;
+  font-size: 20px;
 }
 .icon {
   margin-right: 20px;
