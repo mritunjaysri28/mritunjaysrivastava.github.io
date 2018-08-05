@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(34, 36, 37);
+  color: white;
+}
 #particles-js {
   height: 100vh;
   background-color:  #282830;
@@ -8,29 +12,28 @@
   width: 100%;
   text-align: center;
 }
+#about, #skills {
+  background-color: rgb(34, 36, 37);
+}
+#project, #contact {
+  background-color: rgb(8, 11, 11);
+}
 hr {
-  border: 1px inset black;
+  border: 1px inset white;
   width: 10vh;
 }
-.jumbotron {
-  background-color: white;
-}
-.size {
-  background-color: #ecf0f1;
-}
-.col-sm-2, .col-sm-4 {
+.col-sm-4 {
   margin: 10px 0px;
+}
+.card {
+  background-color: rgb(34, 36, 37);
+  margin: 5px 0px;
 }
 .card-body {
   width: 90%;
   margin: 20px;
 }
-.card {
-  border: 0px;
-  margin: 5px 0px;
-}
-.card:hover {
-  background-color: #ecf0f1;
+.card-body:hover {
   font-size: 20px;
 }
 .icon {
